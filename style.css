@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    min-height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    flex: 0 0 100%;
+    text-align: center;
+}
+.canvas{
+    height: 80vh;
+    width: 80vh;
+    flex: 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pixels{
+    background-color: white;
+}
+.color{
+    background-color: chartreuse;
+}
