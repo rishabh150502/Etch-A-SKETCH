@@ -26,3 +26,6 @@ h1{
 .color{
     background-color: chartreuse;
 }
+.options{
+    flex: 0 0 100%;
+}

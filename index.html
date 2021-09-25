@@ -11,7 +11,17 @@
     <div class="main">
         <h1>Etch-A-Sketch</h1>
         <div class="canvas"></div>
-        <div class="options"></div>
+        <div class="options">
+            <button class="clear">Clear</button>
+            <label for="grid-size">Choose grid size </label>
+            <select id="grid-size" name="size">
+                <option value="16" selected>16 x 16</option>
+                <option value="32">32 x 32</option>
+                <option value="48">48 x 48</option>
+                <option value="64">64 x 64</option>
+                <option value="100">100 x 100</option>
+            </select>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
