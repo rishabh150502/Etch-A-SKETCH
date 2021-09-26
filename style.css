@@ -1,20 +1,22 @@
-:root{
-    --base: #000000;
-}
 *{
     margin: 0px;
     padding: 0px;
+    background-color: rgb(31, 31, 31);
 }
 .main{
+    width: 100%;
     min-height: 100vh;
-    background-color: aqua;
+    color: rgb(230, 230, 230);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 h1{
-    flex: 0 0 100%;
+    flex: 1 0 90%;
     text-align: center;
+    background-color: chocolate;
+    margin-bottom: 1%;
+    padding: 1%;
 }
 .canvas{
     height: 80vh;
@@ -27,9 +29,30 @@ h1{
 .pixels{
     background-color: white;
 }
-.color{
-    background-color: var(--base);
-}
 .options{
-    flex: 0 0 100%;
+    flex: 1 0 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2%;
+}
+
+.clear,.erase,select{
+    border-style: none;
+    padding: 5px 3%;
+    border-radius: 20px;
+    background-color: chocolate;
+    font-size: 1rem;
+    font-weight: 700;
+    color: cornsilk;
+    flex: 0 1 auto;
+}
+.size{
+    flex: 0 0 20%;
+}
+input{
+    background-color: chocolate;
+    border-style: none;
+    border-radius: 5px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,31 @@
     <title>Etch-A-Sketch</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main">
         <h1>Etch-A-Sketch</h1>
-        <div class="canvas">hi</div>
+        <div class="canvas"></div>
         <div class="options">
             <button class="clear">Clear</button>
             <button class="erase">erase</button>
-            <label for="grid-size">Choose grid size </label>
-            <select id="grid-size" name="size">
-                <option value="16" selected>16 x 16</option>
-                <option value="32">32 x 32</option>
-                <option value="48">48 x 48</option>
-                <option value="64">64 x 64</option>
-                <option value="100">100 x 100</option>
-            </select>
-            <label for="pen-color">Choose Color</label>
-            <input type="color" id="pen-color" name="pen-color" value="#000000">
+            <div class="size">
+                <label for="grid-size">Choose grid size </label>
+                <select id="grid-size" name="size">
+                    <option value="16" selected>16 x 16</option>
+                    <option value="32">32 x 32</option>
+                    <option value="48">48 x 48</option>
+                    <option value="64">64 x 64</option>
+                    <option value="100">100 x 100</option>
+                </select>
+            </div>
+            <div class="color">
+                <label for="pen-color">Choose Color</label>
+                <input type="color" id="pen-color" name="pen-color" value="#000000">
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
