@@ -16,7 +16,7 @@ h1{
     text-align: center;
     background-color: chocolate;
     margin-bottom: 1%;
-    padding: 1%;
+    padding-top: 10px;
 }
 .canvas{
     height: 80vh;
@@ -25,6 +25,9 @@ h1{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
+    flex: 0 1 auto;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 .pixels{
     background-color: white;
